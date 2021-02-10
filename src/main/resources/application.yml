@@ -1,6 +1,8 @@
 server:
   port: 8085
 
+
+
 management:
   endpoints:
     web:
@@ -14,6 +16,9 @@ management:
     export:
       prometheus:
         enabled: true
+    tags:
+      aplicacao: serviço de testes
+      ambiente: desenvolvimento
   endpoint:
     prometheus:
       enabled: true
